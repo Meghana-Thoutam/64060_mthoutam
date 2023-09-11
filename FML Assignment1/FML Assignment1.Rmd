@@ -21,7 +21,7 @@ Value=read.csv("C:\\Users\\maggi\\Desktop\\forestfires.csv")
 #The below code gives the descriptive statistics of the dataset that has mean,median,mode and the deviation so on..
 
 ```{r}
-#summary(Value)
+summary(Value)
 #The above gives whole summary of the table
 
 a=mean(Value$wind)
